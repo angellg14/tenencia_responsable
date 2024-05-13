@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción de Animales</title>
+    <link rel="stylesheet" href="formu1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de transferencia animal de compañia</h1>
+        <h2>Datos del Animal</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="especie">Especie:</label>
+            <select id="especie" name="especie" required>
+                <option value="">Selecciona una especie</option>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+            </select>
+            
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="">Selecciona un sexo</option>
+                <option value="macho">Macho</option>
+                <option value="hembra">Hembra</option>
+            </select>
+            
+            <label for="esterilizado">Esterilizado:</label>
+            <select id="esterilizado" name="esterilizado" required>
+                <option value="">Selecciona una opción</option>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+            
+            <label for="raza">Raza:</label>
+            <input type="text" id="raza" name="raza" required>
+            
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color" required>
+            
+            <label for="modo-obtencion">Modo de obtención:</label>
+            <select id="modo-obtencion" name="modo-obtencion" required>
+                <option value="">Selecciona un modo de obtención</option>
+                <option value="recogido">Recogido</option>
+                <option value="reubicacion">Reubicación</option>
+                <option value="regalo">Regalo</option>
+                <option value="nacido-en-casa">Nacido en casa</option>
+                <option value="compra">Compra</option>
+            </select>
+            
+            <label for="razon-tenencia">Razón de tenencia:</label>
+            <select id="razon-tenencia" name="razon-tenencia" required>
+                <option value="">Selecciona una razón de tenencia</option>
+                <option value="compañia">Compañía</option>
+                <option value="asistencia">Asistencia</option>
+                <option value="terapia">Terapia</option>
+                <option value="trabajo">Trabajo</option>
+                <option value="seguridad">Seguridad</option>
+                <option value="deporte">Deporte</option>
+                <option value="exposicion">Exposición</option>
+                <option value="reproduccion">Reproducción</option>
+                <option value="caza">Caza</option>
+            </select>
+            
+            <h2>Datos de a quien transfiere al animal</h2>
+            <label for="tipo-persona-transfiere">Tipo de persona:</label>
+            <select id="tipo-persona-transfiere" name="tipo-persona-transfiere" required>
+                <option value="">Selecciona un tipo de persona</option>
+                <option value="natural">Natural</option>
+                <option value="juridica">Jurídica</option>
+            </select>
+
+            <label for="nombre-transfiere">Nombre completo:</label>
+            <input type="text" id="nombre-transfiere" name="nombre-transfiere" required>
+
+            <label for="domicilio-transfiere">Domicilio:</label>
+            <input type="text" id="domicilio-transfiere" name="domicilio-transfiere" required>
+
+            <label for="celular-transfiere">Celular:</label>
+            <input type="text" id="celular-transfiere" name="celular-transfiere" required>
+
+            <label for="titulo-transfiere">Título:</label>
+            <select id="titulo-transfiere" name="titulo-transfiere" required>
+                <option value="">Selecciona un título</option>
+                <option value="oneroso">Oneroso</option>
+                <option value="gratuito">Gratuito</option>
+            </select>
+
+            <h2>Datos de quien adquiere el animal</h2>
+            <label for="tipo-persona-adquiere">Tipo de persona:</label>
+            <select id="tipo-persona-adquiere" name="tipo-persona-adquiere" required>
+                <option value="">Selecciona un tipo de persona</option>
+                <option value="natural">Natural</option>
+                <option value="juridica">Jurídica</option>
+            </select>
+
+            <label for="nombre-adquiere">Nombre completo:</label>
+            <input type="text" id="nombre-adquiere" name="nombre-adquiere" required>
+
+            <label for="domicilio-adquiere">Domicilio:</label>
+            <input type="text" id="domicilio-adquiere" name="domicilio-adquiere" required>
+
+            <label for="celular-adquiere">Celular:</label>
+            <input type="text" id="celular-adquiere" name="celular-adquiere" required>
+
+            <label for="titulo-adquiere">Título:</label>
+            <select id="titulo-adquiere" name="titulo-adquiere" required>
+                <option value="">Selecciona un título</option>
+                <option value="oneroso">Oneroso</option>
+                <option value="gratuito">Gratuito</option>
+            </select>
+            
+            <button type="submit">
+                <a href="/animales/index.html" target="_blank">Registrar</a>
+            </button>
+        </form>
+    </div>
+</body>
+</html>
